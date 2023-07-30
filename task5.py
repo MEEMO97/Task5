@@ -18,9 +18,9 @@ print("Third Letter Is \""+name[2]+"\"")
 print("Third Letter Is \""+name[len(name)-1]+"\"")
 print(name[6:])
 print(name[:4])
-print(name[2:4].capitalize(),name[5:7])
+print(name[2:4].capitalize(),name[5:7])#required output "Aa Re"
 print(name[9:4:-1])
-print(name[:6:2],name[5::2])
+print(name[:6:2],name[5::2])#required output "Da Re"
 name2 = "$&$&Mohammed$&$&"
 print(name2.strip("$&"))
 msg = "I %7 Python And Although I %7 GSG with Zakaria"
